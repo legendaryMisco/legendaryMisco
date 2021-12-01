@@ -1,0 +1,90 @@
+#kivy file
+#start tag should be the name of the class that will contain the backend or the  function from the kv file
+
+<Form>
+    BoxLayout:
+        orientation:'vertical'
+        size:root.width,root.height
+
+        Label:
+            text: 'Sign Up'
+            italic:True
+            color:'white'
+            font_size:25
+            size_hint:(1,0.08)
+
+
+
+        Label:
+            text: 'FirstName'
+            italic:True
+            color:'white'
+            font_size:20
+            size_hint:(1,0.06)
+
+        TextInput:
+            multiline:False
+            text: ''
+            font_size: 16
+            size_hint: (0.7,0.029)
+            pos_hint:{"center_x": 0.5}
+            background_color:'white'
+            background_normal: 'None'
+            color:'black'
+
+
+
+        Label:
+            text: 'LastName'
+            italic:True
+            color:'white'
+            font_size:20
+            size_hint:(1,0.06)
+
+        TextInput:
+            multiline:False
+            text: ''
+            font_size: 16
+            size_hint: (0.7,0.029)
+            pos_hint:{"center_x": 0.5}
+            background_color:'white'
+            background_normal: 'None'
+            color:'black'
+
+
+
+        Label:
+            text: 'Gender'
+            italic:True
+            color:'white'
+            font_size:20
+            size_hint:(1,0.06)
+
+        TextInput:
+            multiline:False
+            text: ''
+            font_size: 16
+            size_hint: (0.7,0.029)
+            pos_hint:{"center_x": 0.5}
+            background_color:'white'
+            background_normal: 'None'
+            color:'black'
+
+
+
+        Label:
+            text: 'description'
+            italic:True
+            color:'white'
+            font_size:20
+            size_hint:(1,0.08)
+
+        TextInput:
+            text: ''
+            font_size: 19
+            size_hint: (0.9,0.3)
+            pos_hint:{"center_x": 0.5}
+            background_color:'white'
+            background_normal: 'None'
+            color:'black'
+            spacing: 10
